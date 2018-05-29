@@ -1,2 +1,2 @@
 # Landing #1
-I do not know what will landing be about. 
+Landing-resume of the web & graphic designer.
