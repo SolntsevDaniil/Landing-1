@@ -1,0 +1,13 @@
+.nav {
+    @include toBottom();
+    display: flex;
+    text-align: center;
+
+    background-color: $darkGreen;
+    &__item {
+        text-transform: uppercase;
+        font-size: 16px;
+        padding: 20px;
+        flex: 1;
+    }
+}

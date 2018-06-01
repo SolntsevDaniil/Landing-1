@@ -18,3 +18,11 @@
         border: 2px solid $green;
     }
 }
+
+.link {
+    text-decoration: none;
+    color: $white;
+
+    transition: all .2s;
+    &:hover { color: $green; }
+}
