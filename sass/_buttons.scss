@@ -1,0 +1,20 @@
+.button {
+    cursor: pointer;
+
+    text-transform: uppercase;
+    background-color: transparent;
+
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 25px 15px 25px;
+
+    &_white {
+        color: $white;
+        border: 2px solid $white;
+    }
+
+    &_green {
+        color: $green;
+        border: 2px solid $green;
+    }
+}
