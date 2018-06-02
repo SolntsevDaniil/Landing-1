@@ -128,10 +128,41 @@ table {
   .values__text {
     color: #919191;
     font-size: 16px;
-    line-height: 1.2;
+    font-weight: lighter;
+    line-height: 1.6;
     padding-bottom: 100px; }
   .values-wrap {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    background-color: #FFFFFF; }
+
+.about {
+  background-color: #f2f2f1; }
+  .about__title {
+    font-size: 30px;
+    padding: 30px;
+    text-transform: uppercase;
+    color: #566366; }
+  .about__text {
+    width: 70%;
+    font-size: 18px;
+    padding: 0 0 20px 30px;
+    font-weight: lighter;
+    line-height: 1.6; }
+  .about-wrap {
+    display: inline-block;
+    width: 50%; }
+
+.strengths {
+  display: flex; }
+  .strengths__title {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #566366; }
+  .strengths__text {
+    font-size: 18px;
+    padding: 15px 0 0 0;
+    color: #919191;
+    font-weight: lighter; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2,7 +2,7 @@
     width: 20%;
 
     &__title {
-        color: $grey;
+        color: $darkGrey;
         text-transform: uppercase;
 
         font-size: 30px;
@@ -12,13 +12,52 @@
 
     &__text {
         color: $greyText;
+
         font-size: 16px;
-        line-height: 1.2;
+        font-weight: lighter;
+        line-height: 1.6;
         padding-bottom: 100px;
     }
 
     &-wrap {
         display: flex;
         justify-content: space-around;
+        background-color: $white;
+    }
+}
+
+.about {
+    background-color: $greyBGC;
+    &__title {
+        font-size: 30px;
+        padding: 30px;
+
+        text-transform: uppercase;
+        color: $darkGrey;
+    }
+    &__text {
+        width: 70%;
+
+        font-size: 18px;
+        padding: 0 0 20px 30px;
+        font-weight: lighter;
+        line-height: 1.6;
+    }
+    &-wrap { display: inline-block; width: 50%; }
+}
+
+.strengths {
+    display: flex;
+    &__title {
+        font-size: 22px;
+        text-transform: uppercase;
+        color: $darkGrey;
+    }
+    &__text {
+        font-size: 18px;
+        padding: 15px 0 0 0;
+
+        color: $greyText;
+        font-weight: lighter;
     }
 }
