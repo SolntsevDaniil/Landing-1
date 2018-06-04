@@ -155,7 +155,7 @@ table {
 
 .strengths {
   display: flex;
-  width: 40%;
+  width: 60%;
   margin: 30px; }
 .strength__title {
   display: inline-block;
@@ -172,5 +172,8 @@ table {
 .strength__img {
   width: 30px;
   height: 30px; }
+
+.img-wrap {
+  display: flex; }
 
 /*# sourceMappingURL=styles.css.map */

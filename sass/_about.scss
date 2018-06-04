@@ -49,7 +49,7 @@
 .strength {
     &s {
         display: flex;
-        width: 40%;
+        width: 60%;
         margin: 30px;
     }
     &__title {
@@ -72,4 +72,8 @@
         width: 30px;
         height: 30px;
     }
+}
+
+.img {
+    &-wrap { display: flex;}
 }
