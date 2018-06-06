@@ -55,9 +55,15 @@ table {
   .button_white {
     color: #FFFFFF;
     border: 2px solid #FFFFFF; }
+    .button_white:hover {
+      background-color: #212121;
+      border: 2px solid #212121; }
   .button_green {
     color: #2ecc71;
     border: 2px solid #2ecc71; }
+    .button_green:hover {
+      color: #FFFFFF;
+      background-color: #2ecc71; }
 
 .link {
   text-decoration: none;
@@ -175,5 +181,48 @@ table {
 
 .img-wrap {
   display: flex; }
+
+.skills {
+  display: flex;
+  padding-bottom: 100px;
+  background-color: #FFFFFF; }
+  .skills-wrap {
+    width: 30%; }
+  .skills__title {
+    font-size: 30px;
+    padding: 100px 0 0 100px;
+    text-transform: uppercase;
+    color: #566366; }
+  .skills__text {
+    font-size: 18px;
+    padding: 15px 0 20px 100px;
+    font-weight: lighter;
+    color: #919191; }
+    .skills__text_padding {
+      padding-bottom: 50px; }
+  .skills .button {
+    margin-left: 100px; }
+
+.progress {
+  margin-top: 100px;
+  margin: 100px 0 0 100px; }
+  .progress__title {
+    font-size: 22px;
+    padding-bottom: 12px;
+    color: #566366;
+    text-transform: uppercase; }
+  .progress__bar {
+    width: 500%;
+    height: 25px;
+    margin-bottom: 30px;
+    background-color: #f2f2f1; }
+  .progress__green {
+    width: 90%;
+    height: 25px;
+    background-color: #2ecc71; }
+    .progress__green_80 {
+      width: 80%; }
+    .progress__green_70 {
+      width: 70%; }
 
 /*# sourceMappingURL=styles.css.map */
