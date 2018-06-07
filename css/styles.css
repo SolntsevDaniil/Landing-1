@@ -56,6 +56,7 @@ table {
     color: #FFFFFF;
     border: 2px solid #FFFFFF; }
     .button_white:hover {
+      color: #2ecc71;
       background-color: #212121;
       border: 2px solid #212121; }
   .button_green {
@@ -184,28 +185,24 @@ table {
 
 .skills {
   display: flex;
-  padding-bottom: 100px;
+  padding: 150px 0 150px 300px;
   background-color: #FFFFFF; }
   .skills-wrap {
     width: 30%; }
   .skills__title {
     font-size: 30px;
-    padding: 100px 0 0 100px;
     text-transform: uppercase;
     color: #566366; }
   .skills__text {
     font-size: 18px;
-    padding: 15px 0 20px 100px;
+    padding-top: 25px;
     font-weight: lighter;
     color: #919191; }
     .skills__text_padding {
       padding-bottom: 50px; }
-  .skills .button {
-    margin-left: 100px; }
 
 .progress {
-  margin-top: 100px;
-  margin: 100px 0 0 100px; }
+  margin-left: 100px; }
   .progress__title {
     font-size: 22px;
     padding-bottom: 12px;
@@ -224,5 +221,19 @@ table {
       width: 80%; }
     .progress__green_70 {
       width: 70%; }
+
+.resume {
+  padding: 120px 0 120px 0;
+  text-align: center;
+  background-color: #f2f2f1; }
+  .resume__title {
+    font-size: 30px;
+    color: #566366;
+    text-transform: uppercase; }
+  .resume__text {
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 10px 0 30px 0;
+    line-height: 1.2; }
 
 /*# sourceMappingURL=styles.css.map */

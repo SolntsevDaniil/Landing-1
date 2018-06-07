@@ -12,6 +12,7 @@
         color: $white;
         border: 2px solid $white;
         &:hover {
+            color: $green;
             background-color: $dark;
             border: 2px solid $dark;
         }

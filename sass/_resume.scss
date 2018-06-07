@@ -1,0 +1,16 @@
+.resume {
+    padding: 120px 0 120px 0;
+    text-align: center;
+    background-color: $greyBGC;
+    &__title {
+        font-size: 30px;
+        color: $darkGrey;
+        text-transform: uppercase;
+    }
+    &__text {
+        font-size: 18px;
+        font-weight: lighter;
+        padding: 10px 0 30px 0;
+        line-height: 1.2;
+    }
+}
