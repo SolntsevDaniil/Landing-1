@@ -236,4 +236,35 @@ table {
     padding: 10px 0 30px 0;
     line-height: 1.2; }
 
+.portfolio {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding-top: 50px; }
+  .portfolio__title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #566366; }
+  .portfolio__text {
+    font-size: 18px;
+    padding: 12px 0 50px 0;
+    font-weight: lighter;
+    color: #919191; }
+  .portfolio .row {
+    display: flex;
+    justify-content: space-around; }
+  .portfolio__item {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #f2f2f1; }
+    .portfolio__item_1 {
+      background: url("../sass/img/portfolio_item1.jpg") no-repeat; }
+    .portfolio__item_2 {
+      background: url("../sass/img/portfolio_item2.jpg") no-repeat; }
+    .portfolio__item_3 {
+      background: url("../sass/img/portfolio_item3.jpg") no-repeat; }
+    .portfolio__item:hover {
+      box-shadow: 2px 20px 150px rgba(0, 0, 0, 0.3); }
+
 /*# sourceMappingURL=styles.css.map */
